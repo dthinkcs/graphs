@@ -21,7 +21,7 @@ bool compareEdgesWeight(Edge a, Edge b) {
     return a.weight < b.weight;
 }
 
-// UNDIRECTED Kruskal
+// UNDIRECTED 
 void printKruskal(Edge* edgeList, int E, int V) {
     sort(edgeList, edgeList + E, compareEdgesWeight);
     
